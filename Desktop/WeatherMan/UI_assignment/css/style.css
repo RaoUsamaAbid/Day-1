@@ -1,0 +1,526 @@
+
+:root {
+  --color-primary: #b8d0db;
+  --color-secondary: rgb(245, 123, 8);
+  --heading-color: rgb(47, 43, 68);
+  --body-text-color: rgb(133, 125, 125);
+  --dark-body-color: #2c2e2c;
+  --color-variable:white;
+  font-family: "Poppins", Arial, sans-serif !important;
+  font-size: 16px;
+
+  
+}
+.p{
+  color: var(--body-text-color);
+}
+h1,h2,h3,h4,h5,h6{
+  color: var(--heading-color);
+}
+/* **************Background css************* */
+.bg-img {
+  background-image: url("../images/xbg_2.webp");
+  background-size: 50% 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: right;
+  object-fit: cover;
+  background-color: var(--color-primary);
+
+}
+.home-bg {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+.div-bg {
+  background-image: url("../images/xbg_4.webp");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+/****************Home css***************/
+.home {
+  height: 100vh;
+  background-color: var(--color-primary);
+  text-align: left;
+}
+ .home .nav-link  {
+  color: var(--body-text-color) !important;
+}
+
+/* ***************** Navigation Bar css ************* */
+.navbar {
+  margin: auto 3%;
+  z-index: 1;
+}
+
+
+.home .navbar-toggler{
+  color: var(--color-variable);
+}
+
+.navbar-nav li {
+  padding-right: 1.5rem;
+}
+
+.navbar {
+  padding: 1.5rem;
+}
+
+/* ******************Contents Css********************* */
+
+.content {
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  margin-left: 5%;
+}
+
+.content-main {
+  color: var(--heading-color);
+  font-weight: 100;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.content-text {
+  width: 60%;
+  color: var(--body-text-color);
+}
+
+/* ************* Containers css *************** */
+
+.left-div {
+  font-size: 8px;
+}
+
+.div-height {
+  margin: 5% 0;
+  text-align: center;
+}
+
+.div-pics {
+  width: 100%;
+  object-fit: cover;
+  min-height: 100%;
+}
+
+
+.row div {
+padding: 5px;
+}
+
+.inner-div {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.div-item {
+  margin: 5% 5%;
+}
+
+.div-height2 {
+  padding: 5%;
+  background-color: var(--color-primary);
+  text-align: center;
+}
+
+
+.f-color {
+  color: var(--body-text-color);
+}
+
+.fcontainer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background-color: var(--color-primary);
+  padding: 5% 5%;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+
+/* ********** Icons css ************* */
+
+.icon {
+  padding: 5%;
+  margin: 5% 0%;
+  background-color: rgb(143, 125, 146);
+  border-radius: 50%;
+}
+
+.icon2 {
+  padding: 5%;
+  margin: 5% 0%;
+  background-color: rgb(84, 129, 84);
+  border-radius: 50%;
+}
+
+.icon3 {
+  padding: 5%;
+  margin: 5% 0%;
+  background-color: rgb(172, 152, 38);
+  border-radius: 50%;
+}
+
+.icon4 {
+  padding: 5%;
+  margin: 5% 0%;
+  background-color: rgb(184, 110, 27);
+  border-radius: 50%;
+}
+
+.p-icon {
+  width: 130px;
+  height: 130px;
+  padding: 5% 5%;
+  margin: 5% 5%;
+  border-radius: 60%;
+  background-color: var(--color-variable);
+  position: relative;
+}
+
+.notification {
+  font-size: 0.8rem;
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  padding: 10px;
+  background-color: var(--color-secondary);
+  color: var(--color-variable);
+  border-radius: 50%;
+}
+
+.p-icon2 {
+  width: 130px;
+  height: 130px;
+  padding: 5% 5%;
+  margin: 5% 5%;
+  border-radius: 60%;
+  background-color: var(--color-primary);
+  position: relative;
+}
+
+/* *********** Cards Css ************* */
+.beautify {
+  width: 100%;
+  margin-left: 0px !important;
+}
+
+.beautify .card1 {
+  padding: 5% 15%;
+  background-color: rgb(236, 211, 240);
+}
+
+.beautify .card2 {
+  padding: 5% 15%;
+  background-color: rgb(191, 230, 191);
+}
+
+.beautify .card3 {
+  padding: 5% 15%;
+  background-color: rgb(235, 225, 172);
+}
+
+.beautify .card4 {
+  padding: 5% 15%;
+  background-color: rgb(251, 224, 193);
+}
+
+.card-alignment {
+  text-align: center;
+  padding: 5%;
+  background-color: var(--color-variable);
+}
+
+
+.card {
+  flex-direction: row;
+  margin: 3% 2%;
+  text-align: left;
+}
+
+.card-img-top {
+  width: 50%;
+}
+
+.card img {
+  height: 50vh;
+  width: 50%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.card-opposite {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 786px) {
+  .fcontainer {
+    display: block;
+  }
+  .card-opposite, .card {
+    flex-direction: column;
+  }
+
+  .indicator-div2{
+    display: block;
+  }
+
+  .customer-card2 {
+    display: none;
+  }
+
+  .customer-card3 {
+    display: none;
+  }
+
+  .div-pics {
+    height: 50vh;
+  }
+
+  .image-card .image-title {
+    display:block !important ;
+  }
+
+  nav {
+  background-color:#182c61;
+  margin: 0 !important;
+  color: var(--color-variable);
+  }
+  a->.navbar-brand{
+    color: var(--color-variable);
+  }
+}
+.card-body {
+  padding: 5px 20px;
+}
+
+.image-card {
+  position: relative;
+}
+
+.image-title {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  color: var(--color-variable);
+  font-size: 2rem;
+  display: none;
+}
+
+
+.card-b {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  padding: 0 !important;
+}
+
+.customer-card {
+  background-color: var(--color-variable);
+}
+
+.customer-card2 {
+  background-color: var(--color-secondary);
+  color: var(--color-variable);
+  display: block;
+}
+
+.customer-card3 {
+  background-color: var(--color-variable);
+  display: block;
+}
+
+.customer-card-alignment {
+  display: flex;
+  padding: 5% 5%;
+  background-color: #f7f7f7;
+}
+
+.bold {
+  font-weight: bold;
+}
+.heading-margin {
+  margin-bottom: 2rem;
+}
+/* **************** Buttons css ***************** */
+.play-button {
+  color: var(--color-secondary);
+}
+
+.button {
+  border-radius: 50%;
+  height: 48px;
+  max-width: 100%;
+  padding: 2px 24px;
+  color: #7eb1d3;
+  font-size: large;
+  border-style: none;
+  border-radius: 20px;
+
+}
+
+.line {
+  width: 60%;
+  position: absolute;
+  top: 45%;
+  left: 20%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonA {
+  background-color: var(--color-secondary);
+  color: var(--color-variable);
+  margin: 10px;
+  height: auto;
+}
+
+.buttonB {
+  background-color: var(--color-primary);
+  color: #fafafa;
+  margin: 10px;
+  border-style: none;
+  height: auto;
+}
+/* ********** Footer css ************ */
+
+.fitems {
+  align-items: center;
+}
+
+.footer-item {
+  margin: 2% 2%;
+}
+
+.item-color {
+  color: rgb(59, 158, 197);
+}
+
+.footer_image {
+  width: 50px;
+  max-height: 50px;
+  margin-right: 5%;
+}
+
+.footer-text {
+  font-size: small;
+}
+
+.post-flex {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.footer-bold {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.footer-height {
+  background-color: var(--color-primary);
+  padding: 1% 1%;
+  text-align: center;
+}
+
+.post-details {
+  display: flex;
+  align-items: center !important;
+  justify-content: space-between;
+}
+
+.customers-flex {
+  display: flex;
+  align-items: center;
+}
+
+.customers-image {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+}
+/* *********** quotes css ************ */
+.quotation-mark {
+  position: absolute;
+  top: -10px;
+  left: 5px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #ff8c34;
+  color: var(--color-variable);
+}
+
+.quotation-mark2 {
+  position: absolute;
+  top: -10px;
+  left: 5px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: var(--color-variable);
+  color: #ff8c34;
+}
+
+.class-d {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+  gap: 20px;
+}
+
+.footer-spacing {
+  margin: 3%;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.div-flex {
+  display: flex;
+  justify-content: center;
+}
+
+/* *********** indicator css ********** */
+
+.indicator-div {
+  height: 3px;
+  width: 50px;
+  color: #ff8c34;
+  margin: 10px;
+  background-color: #ff8c34;
+}
+
+.indicator-div1 {
+  height: 3px;
+  width: 50px;
+  color: #ff8c34;
+  margin: 10px;
+  background-color: rgb(114, 114, 114);
+}
+
+.indicator-div2 {
+  height: 3px;
+  width: 50px;
+  color: #ff8c34;
+  margin: 10px;
+  background-color: rgb(114, 114, 114);
+  display: none;
+}
+/* ******************** Testimonial css ****************** */
+.main-testimonial {
+  background-color: #f7f7f7;
+}
